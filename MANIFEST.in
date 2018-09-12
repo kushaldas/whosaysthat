@@ -1,0 +1,7 @@
+include *.py
+include README.md
+include LICENSE
+include setup.py
+include configs/*.json
+include data/*.txt
+include whatismyip
