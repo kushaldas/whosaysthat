@@ -6,7 +6,18 @@ This is a Python3 project.
 
 ## Requirements
 
-- requests
+First create a virtual environment and activate it:
+
+```
+virtualenv -p python3 env/
+source env/bin/activate
+```
+
+Then install the necessary dependencies:
+
+```
+pip install -r requirements.txt
+```
 
 ## configs/whosaysthat.json
 
