@@ -1,4 +1,5 @@
 import requests
+from pprint import pprint
 
 def say():
     print("Freedom is everything.")
@@ -9,3 +10,10 @@ def ip_details():
         return r.json()
     else:
         raise Exception("Not 200")
+
+def main():
+    "This is our entry point"
+    pprint(ip_details())
+
+if __name__ == '__main__':
+    main()
