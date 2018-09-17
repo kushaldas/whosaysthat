@@ -12,6 +12,13 @@ We are using `pipenv` for the development and you can invoke a shell by using:
 pipenv shell
 ```
 
+To use the commands locally, use the following command.
+
+```
+pipenv install -e .
+```
+
+
 ## configs/whosaysthat.json
 
 The above mentioned file is our example configuration file.
