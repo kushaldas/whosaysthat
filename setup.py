@@ -27,6 +27,7 @@ setuptools.setup(
     entry_points={
         'console_scripts': [
             'whatismyip = whosaysthat:main',
+            'whoisthebest = mike:say',
         ],
     },
 )
