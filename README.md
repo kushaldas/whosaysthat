@@ -6,7 +6,11 @@ This is a Python3 project.
 
 ## Requirements
 
-- requests
+We are using `pipenv` for the development and you can invoke a shell by using:
+
+```
+pipenv shell
+```
 
 ## configs/whosaysthat.json
 
