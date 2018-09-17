@@ -6,17 +6,10 @@ This is a Python3 project.
 
 ## Requirements
 
-First create a virtual environment and activate it:
+We are using `pipenv` for the development and you can invoke a shell by using:
 
 ```
-virtualenv -p python3 env/
-source env/bin/activate
-```
-
-Then install the necessary dependencies:
-
-```
-pip install -r requirements.txt
+pipenv shell
 ```
 
 ## configs/whosaysthat.json
