@@ -5,14 +5,14 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="whosaysthat",
-    version="0.0.1",
+    version="0.0.2",
     author="Kushal Das",
     author_email="kushal@freedom.press",
     description="Example Python package",
     long_description=long_description,
     long_description_content_type="text/markdown",
     license="GPLv3+",
-    install_requires=["requests",],
+    install_requires=["requests","cryptography",],
     python_requires=">=3.5",
     url="https://github.com/kushaldas/whosaysthat",
     packages=setuptools.find_packages(exclude=["docs", "tests"]),
