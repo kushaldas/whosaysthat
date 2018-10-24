@@ -5,3 +5,4 @@ include setup.py
 include configs/*.json
 include data/*.txt
 include whatismyip
+include srv/saltfile

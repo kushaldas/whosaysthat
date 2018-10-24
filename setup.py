@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="whosaysthat",
-    version="0.0.1",
+    version="0.0.3",
     author="Kushal Das",
     author_email="kushal@freedom.press",
     description="Example Python package",
@@ -16,6 +16,7 @@ setuptools.setup(
     python_requires=">=3.5",
     url="https://github.com/kushaldas/whosaysthat",
     packages=setuptools.find_packages(exclude=["docs", "tests"]),
+    data_files = [("share/whosaysthat/data",["data/1.txt","data/2.txt"])],
     classifiers=(
         "Development Status :: 3 - Alpha",
         "Programming Language :: Python :: 3",
