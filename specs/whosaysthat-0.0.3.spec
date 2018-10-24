@@ -29,6 +29,8 @@ We want to learn RPM packaing.
 
 %install
 %{__python3} setup.py install --skip-build --root %{buildroot}
+install -m 755 -d %{buildroot}/srv
+install -m 755 srv/saltfile %{buildroot}/srv/
 
 %files
 %doc README.md LICENSE
@@ -37,7 +39,7 @@ We want to learn RPM packaing.
 %{python3_sitelib}/%{name}*
 %{python3_sitelib}/mike*
 %{_datadir}/%{name}
-
+/srv/saltfile
 
 %changelog
 * Wed Oct 24 2018 Kushal Das <kushal@freedom.press> - 0.0.3-1
